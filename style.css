@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 3rem;
+  background-color: aquamarine;
+  position: fixed;
+  top: 0;
+}
+
+.header-logo {
+  width: 4.5rem;
+  border-radius: 50%;
+}
+
+nav {
+  width: 100%;
+  height: 3rem;
+  background-color: blueviolet;
+  margin-top: 3rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 0.85rem;
+}
+
+.nav-anchor {
+  font-size: 1.15rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.nav-anchor:hover {
+  color: darkblue;
+}
+
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: inline;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  padding: 18px 24px;
+  background-color: blue;
+  letter-spacing: 2px;
+  border-radius: 12px;
+  margin-top: 2rem;
+}
+
+.image-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 24px 0;
+  gap: 5rem;
+}
+
+.random {
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+}
+
+.card-component {
+  margin: 5rem;
+  width: 44rem;
+  height: 24rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  border: 2px solid #000;
+  border-radius: 12px;
+}
+
+.box-1 {
+  width: 40%;
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+  text-align: start;
+}
+
+.card-img {
+  width: 18rem;
+}
+
+.card-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  margin: 24px 6px;
+}
+
+.card-para {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  margin: 12px 3px;
+}
+
+@media only screen and (max-width: 600px) {
+  .image-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
