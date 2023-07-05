@@ -172,6 +172,75 @@ a {
   border-radius: 12px;
 }
 
+.form-1 {
+  height: 18rem;
+  width: 18rem;
+  border: 2px solid black;
+  border-radius: 12px;
+  margin: 8rem 0;
+}
+
+.input-text {
+  padding: 0.75rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.form-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.age {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.dropdown-section {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 8rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  border: 2px solid green;
+  background-color: rgba(0, 128, 0, 0.774);
+  cursor: pointer;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 12.85rem;
+  text-align: center;
+}
+
+.dropdown-content-e {
+  text-decoration: none;
+  color: #000;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  display: block;
+  background-color: rgba(0, 209, 0, 0.404);
+}
+
+.dropdown-content-e:hover {
+  background-color: rgba(0, 209, 0, 0.719);
+}
+
+.dropdown-section:hover .dropdown-content {
+  display: block;
+}
+
 @media only screen and (max-width: 600px) {
   .image-section {
     display: flex;
