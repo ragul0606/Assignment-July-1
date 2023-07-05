@@ -241,6 +241,26 @@ a {
   display: block;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-validation {
+  border: 2px solid black;
+  padding: 6rem;
+  margin-bottom: 24px;
+}
+
+.input-form-2 {
+  font-size: 1rem;
+  padding: 0.75rem;
+  border: 2px solid rgba(0, 0, 0, 0.705);
+  border-radius: 6px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 @media only screen and (max-width: 600px) {
   .image-section {
     display: flex;
